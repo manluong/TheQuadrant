@@ -1,0 +1,187 @@
+/* CSS Document */
+
+/*Custom Styles to WordPress Visual Editor*/
+.dropcap {
+	float: left;
+	display: block;
+	font-size: 50px;
+	line-height: 1;
+	color: #737373;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.dropcap1 {
+	float: left;
+	display: block;
+	font-size: 36px;
+	line-height: 1;
+	border-radius:50%;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	padding: 5px 12px;
+	margin-right: 10px;
+	border: 0;
+	background-color: #737373;
+	color: #fff;
+}
+.dropcap2 {
+	float: left;
+	background-color: transparent !important;
+	color: #4B4B4B;
+	font-size: 79px;
+	line-height: 40px;
+	margin: 0px 10px 0px 0px;
+	padding: 0;
+}
+.dropcap3 {
+	float: left;
+	background-color: transparent !important;
+	color: #4B4B4B;
+	font-weight: bold;
+	font-size: 79px;
+	line-height: 40px;
+	margin: 0px 10px 0px 0px;
+	padding: 0;
+}
+.highlight {
+	background-color: rgba(0, 0, 0, 0.77);
+	padding: 5px 0px 6px;
+	margin: 0px 8px;
+	box-shadow: 8px 0px 0px rgba(0, 0, 0, 0.77), -8px 0px 0px rgba(0, 0, 0, 0.77);
+	color: #2A2A2A;
+	transition: color 400ms ease 0s;
+}
+.highlight_maker {
+	padding: 5px 0px 6px;
+	margin: 0px 8px;
+	color: #FFF;
+	transition: color 400ms ease 0s;
+}
+.highlight:hover {
+	color: #F9F9F9;
+}
+.highlight_maker.red {
+	background-color: rgba(255, 28, 26, 0.62);
+	box-shadow: 8px 0px 0px rgba(255, 28, 26, 0.62), -8px 0px 0px rgba(255, 28, 26, 0.62);
+}
+.highlight_maker.blue {
+	background-color: rgba(57, 213, 255, 0.75);
+	box-shadow: 8px 0px 0px rgba(57, 213, 255, 0.75), -8px 0px 0px rgba(57, 213, 255, 0.75);
+}
+.highlight_maker.green {
+	background-color: rgba(77, 216, 69, 0.65);
+	box-shadow: 8px 0px 0px rgba(77, 216, 69, 0.65), -8px 0px 0px rgba(77, 216, 69, 0.65);
+}
+.highlight_maker.yellow {
+	background-color: rgba(255, 203, 0, 0.75);
+	box-shadow: 8px 0px 0px rgba(255, 203, 0, 0.75), -8px 0px 0px rgba(255, 203, 0, 0.75);
+}
+.highlight_maker.pink {
+	background-color: rgba(255, 101, 243, 0.75);
+	box-shadow: 8px 0px 0px rgba(255, 101, 243, 0.75), -8px 0px 0px rgba(255, 101, 243, 0.75);
+}
+/* Blcok quote css*/
+blockquote {
+	margin: 40px 0;
+    padding: 25px 30px 25px 84px;
+    border-left: none;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    font-style: italic;
+    border-left: 3px solid #eee;
+    position: relative;
+}
+blockquote:before {
+	font-size: 6rem;
+    color: #cdcdcd;
+    left: 12px;
+    top: 40px;
+    position: absolute;
+    content: "\275D";
+    vertical-align: middle;
+    padding-right: 15px;
+    font-style: normal;
+}
+blockquote p {
+	font-weight: 300;
+	font-style: italic;
+	font-size: 15px;
+	color: #51616b;
+	line-height: 36px;
+}
+blockquote footer {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #a5afb5;
+	text-transform: uppercase;
+}
+blockquote footer:before {
+	display: none;
+}
+blockquote.blockquote {
+	color: #737373;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 15px;
+	font-weight: 300;
+	font-style: italic;
+}
+blockquote.blockquote-01 {
+	font-size: 18px;
+}
+blockquote.blockquote-01 p {
+	font-size: 18px;
+}
+blockquote.blockquote-01 {
+	padding-left: 20px;
+}
+
+blockquote.blockquote-02 {
+	border-left: 0;
+	font-size: 24px;
+	padding-left: 60px;
+	color: #333333;
+	position: relative;
+}
+blockquote.blockquote-02:before {
+	position: absolute;
+	content: '\f10d';
+	font-family: 'FontAwesome';
+	top: -10px;
+	left: 0;
+	font-size: 40px;
+	line-height: 1.4;
+	color: #f1f1f1;
+}
+blockquote.blockquote-02 p {
+	font-size: 24px;
+}
+blockquote.blockquote-03 {
+	padding: 30px;
+	border: 1px solid #ccc !important;
+	border-top: 2px solid #333 !important;
+}
+blockquote.blockquote-03:before {
+	display: none;
+}
+blockquote.blockquote-03 p {
+	font-size: 18px;
+	border-left: 0;
+	padding: 10px 20px 10px 40px;
+	margin-bottom: 0;
+	position: relative;
+}
+blockquote.blockquote-03 p:before {
+	position: absolute;
+	content: '\f10d';
+	font-family: 'FontAwesome';
+	top: 5px;
+	left: 0;
+	font-size: 30px;
+	color: #f1f1f1;
+}
+blockquote.blockquote-04 p {
+	font-size: 14px;
+}
+/* -----Custom Styles to WordPress Visual Editor-------*/

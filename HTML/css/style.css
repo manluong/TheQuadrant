@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@font-face {
+  font-family: 'Bebasneue';
+  src: url('../font/BEBASNEUE-REGULAR.ttf'); 
+}
+.container-fluid {
+    width: 100%;
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#header{
+	height: 85px;
+}
+#header nav{
+	float:left;
+	margin-top: 35px;
+}
+#header nav ul li{
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+	width:auto;
+	display: inline;
+  	text-align: center;
+}
+#header nav ul li a{
+	font-family: 'Lato';
+	text-transform: uppercase;
+	color: #1d2c5f;
+	font-size: 13px;
+	font-weight: bold;
+	display: inline-block;
+	text-decoration: none;
+}
+#header nav ul li:hover{
+	border-bottom: 2px solid #000;
+	transition:all 0.3s ease;
+}
+#header nav ul .active{
+	border-bottom: 2px solid #000;
+}
+#logo{
+	float: left;
+	width: 50%;
+	text-align: center;
+	margin-top: 20px;
+}
+#banner{
+	background-color: #022461;
+	height: 887px;
+}
+#banner-box-left{
+	float: left;
+	width: 45%;
+	padding-left: 370px;
+	padding-top: 155px;
+	color:#fff;
+}
+#banner-box-left .banner-title{
+	font-family: 'Bebasneue';
+	font-size: 60px;
+}
+#banner-box-left p{
+	font-family: 'Lato';
+	font-size: 24px;
+}
+#banner-box-right{
+	float: left;
+	width: 55%;
+	padding-top: 65px;
+	padding-left: 50px;
+}
+.readmore{
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 18px;
+	font-style: italic;
+	color: #fff;
+	margin-top: 10px;
+}
+.readmore p{
+	line-height: 10px;
+}
+@keyframes jump {
+  0%   {transform: translate3d(0,0,0) ;}
+  40%  {transform: translate3d(0,30%,0) ;}
+  100% {transform: translate3d(0,100%,0) ;}
+}
+.jump {
+  transform-origin: 50% 50%;
+  animation: jump 1s linear alternate infinite;
+}
+.content{
+	float: left;
+	padding:40px 0 40px 0;
+}
+.box-gradient{
+	border: 3px solid #d7952e;  
+	border-image-source: linear-gradient(#fee191, #d59129);
+	border-image-slice: 20;
+	padding: 2em;
+}
+.w20{
+	width: 20px;
+	height: 20px;
+}
+.w555{
+	width: 555px;
+}
+.left_content{
+	float: left;
+}
+.right_content{
+	float: left;
+	width:605px;
+	position: relative;
+}
+#rc1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	background-color: #fff;
+}
+#rc2{
+	width: 560px;
+	height: 385px;
+	padding:30px 0 0 50px;
+	background-color: #022461;
+	color: #fff;
+	font-family: 'Lato';
+	font-size: 30px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 2;
+}
+#rc3{
+	position: absolute;
+	top: 275px;
+	left: 43px;
+	z-index: 3;
+	background-color: #fff;
+	font-family: 'Lato';
+	font-size: 20px;
+	color: #022461;
+}
